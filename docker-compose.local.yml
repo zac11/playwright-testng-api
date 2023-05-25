@@ -1,0 +1,8 @@
+# Refer to the setting up the local server section in the Readme for how to
+
+version: "3"
+services:
+  restful-booker:
+    image: mwinteringham/restfulbooker
+    ports:
+      - 3001:3001
