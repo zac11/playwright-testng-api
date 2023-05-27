@@ -1,5 +1,6 @@
 package playwright.restfulbooker.tests;
 
+import com.microsoft.playwright.APIRequest;
 import com.microsoft.playwright.APIResponse;
 import com.microsoft.playwright.options.RequestOptions;
 import org.json.JSONObject;
@@ -32,6 +33,8 @@ public class RestFulBookerFinalTests extends BaseTest {
          */
         APIResponse response = requestManager.getPostRequest("/booking", RequestOptions.create()
                 .setData(bookingData));
+
+
 
         assertEquals(response.status(),200);
         JSONObject responseObj = new JSONObject(response.text());
