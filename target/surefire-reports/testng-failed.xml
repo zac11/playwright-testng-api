@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Restful Booker Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="End to End Booking Tests(failed)" verbose="0">
+    <classes>
+      <class name="playwright.restfulbooker.tests.RestFulBookerFinalTests">
+        <methods>
+          <include name="validateDeleted"/>
+          <include name="deleteBooking"/>
+          <include name="createBooking"/>
+          <include name="updatePartialBooking"/>
+          <include name="tearDownTests"/>
+          <include name="setupBaseTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- playwright.restfulbooker.tests.RestFulBookerFinalTests -->
+    </classes>
+  </test> <!-- End to End Booking Tests(failed) -->
+</suite> <!-- Failed suite [Restful Booker Test Suite] -->

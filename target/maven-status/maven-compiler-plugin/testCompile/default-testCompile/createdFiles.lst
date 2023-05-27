@@ -1,0 +1,13 @@
+playwright/restfulbooker/tests/BaseTest.class
+playwright/restfulbooker/data/TokenCredentials.class
+playwright/restfulbooker/data/BookingBuilder$BookingBuilderBuilder.class
+playwright/restfulbooker/data/BookingDates.class
+playwright/restfulbooker/data/BookingBuilder.class
+playwright/restfulbooker/data/partialDataBooking$partialDataBookingBuilder.class
+playwright/manager/RequestManager.class
+playwright/restfulbooker/data/BookingDatabuilder.class
+playwright/restfulbooker/data/TokenBuilder.class
+playwright/restfulbooker/data/BookingDates$BookingDatesBuilder.class
+playwright/restfulbooker/data/partialDataBooking.class
+playwright/restfulbooker/data/TokenCredentials$TokenCredentialsBuilder.class
+playwright/restfulbooker/tests/RestFulBookerFinalTests.class
